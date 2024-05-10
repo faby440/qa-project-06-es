@@ -16,8 +16,3 @@ authorization = {
 }
 
 kit_body = {"name": "Mi cojunto"}
-
-auth_token = {
-    "Content-Type": "application/json",
-    "Authorization": "Bearer f3d9ff6b-afc9-40da-bb0d-82f55d718c03 "
-}

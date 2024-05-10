@@ -16,7 +16,7 @@ print(response.json())
 def post_new_client_kit (name):
     return requests.post(configuration.URL_SERVICE + configuration.kits_path,
                          json=name,
-                         headers=data.auth_token)
+                         headers=data.authorization)
 
 response = post_new_client_kit(data.kit_body)
 print(response.status_code)
