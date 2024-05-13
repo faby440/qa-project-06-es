@@ -15,4 +15,5 @@ authorization = {
     "Authorization": f'Bearer {"auth_token"}'
 }
 
+
 kit_body = {"name": "Mi cojunto"}

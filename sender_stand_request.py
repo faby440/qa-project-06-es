@@ -15,6 +15,3 @@ def post_new_user(body):
                          headers=data.authorization)
 
 response = post_new_user(data.kit_body)
-
-
-

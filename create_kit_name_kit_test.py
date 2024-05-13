@@ -65,6 +65,3 @@ def test_create_kit_body_number_type_name_get_error_response():
     response = sender_stand_request.post_new_user("kit_body")
 
     assert response.status_code == 400
-
-
-
